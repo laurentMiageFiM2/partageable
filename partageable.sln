@@ -3,13 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "partageable", "partageable\partageable.vcxproj", "{F6B61D36-AC7D-4BA3-B0E1-396B3EEBE9C7}"
 	ProjectSection(ProjectDependencies) = postProject
+		{9516C02D-F1D1-4280-AB81-70B8394CF8F4} = {9516C02D-F1D1-4280-AB81-70B8394CF8F4}
 		{38791A35-6BDD-42B2-873F-621244FB3426} = {38791A35-6BDD-42B2-873F-621244FB3426}
+		{EBB1EF9D-83B6-4DA5-8BC0-341217265829} = {EBB1EF9D-83B6-4DA5-8BC0-341217265829}
 		{5001BDBB-2E45-485A-AB91-0C9770A413BC} = {5001BDBB-2E45-485A-AB91-0C9770A413BC}
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant1", "Composant1\Composant1.vcxproj", "{5001BDBB-2E45-485A-AB91-0C9770A413BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EBB1EF9D-83B6-4DA5-8BC0-341217265829} = {EBB1EF9D-83B6-4DA5-8BC0-341217265829}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant2", "Composant2\Composant2.vcxproj", "{38791A35-6BDD-42B2-873F-621244FB3426}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant3", "Composant3\Composant3.vcxproj", "{EBB1EF9D-83B6-4DA5-8BC0-341217265829}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant4", "Composant4\Composant4.vcxproj", "{9516C02D-F1D1-4280-AB81-70B8394CF8F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +38,14 @@ Global
 		{38791A35-6BDD-42B2-873F-621244FB3426}.Debug|Win32.Build.0 = Debug|Win32
 		{38791A35-6BDD-42B2-873F-621244FB3426}.Release|Win32.ActiveCfg = Release|Win32
 		{38791A35-6BDD-42B2-873F-621244FB3426}.Release|Win32.Build.0 = Release|Win32
+		{EBB1EF9D-83B6-4DA5-8BC0-341217265829}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBB1EF9D-83B6-4DA5-8BC0-341217265829}.Debug|Win32.Build.0 = Debug|Win32
+		{EBB1EF9D-83B6-4DA5-8BC0-341217265829}.Release|Win32.ActiveCfg = Release|Win32
+		{EBB1EF9D-83B6-4DA5-8BC0-341217265829}.Release|Win32.Build.0 = Release|Win32
+		{9516C02D-F1D1-4280-AB81-70B8394CF8F4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9516C02D-F1D1-4280-AB81-70B8394CF8F4}.Debug|Win32.Build.0 = Debug|Win32
+		{9516C02D-F1D1-4280-AB81-70B8394CF8F4}.Release|Win32.ActiveCfg = Release|Win32
+		{9516C02D-F1D1-4280-AB81-70B8394CF8F4}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

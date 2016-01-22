@@ -19,5 +19,14 @@
     <ClInclude Include="..\interfaces\Composant2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Composant2Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Composant2.rc" />
   </ItemGroup>
 </Project>

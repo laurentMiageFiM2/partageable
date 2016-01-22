@@ -15,4 +15,5 @@
 
 // interface du composant2
 COMPOSANT2_INTERFACE int composant2(int p1, int p2);
+COMPOSANT2_INTERFACE char * getComposant2Version(void);
 #endif

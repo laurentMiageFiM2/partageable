@@ -87,6 +87,12 @@
     <ProjectReference Include="..\Composant2\Composant2.vcxproj">
       <Project>{38791a35-6bdd-42b2-873f-621244fb3426}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\Composant3\Composant3.vcxproj">
+      <Project>{ebb1ef9d-83b6-4da5-8bc0-341217265829}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Composant4\Composant4.vcxproj">
+      <Project>{9516c02d-f1d1-4280-ab81-70b8394cf8f4}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
