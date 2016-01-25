@@ -1,38 +1,34 @@
-﻿La génération a démarré 22/01/2016 16:41:08.
-     1>Projet "C:\Users\charla13\Documents\github\partageable\Composant1\Composant1.vcxproj" sur le nœud 3 (build cible(s)).
+﻿La génération a démarré 25/01/2016 09:35:36.
+     1>Projet "H:\partageable\Composant1\Composant1.vcxproj" sur le nœud 3 (build cible(s)).
      1>InitializeBuildStatus:
          Création de "Debug\Composant1.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
        ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\charla13\Documents\github\partageable\Interfaces /ZI /nologo /W3 /WX- /Od /Oy- /D COMPOSANT1_EXPORTS /D WIN32 /D _WINDOWS /D _DEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Composant1.cpp
-         Composant1.cpp
-     1>c:\users\charla13\documents\github\partageable\composant1\composant1.cpp(35): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : voir la déclaration de 'strcpy'
-     1>c:\users\charla13\documents\github\partageable\composant1\composant1.cpp(36): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : voir la déclaration de 'strcat'
-     1>c:\users\charla13\documents\github\partageable\composant1\composant1.cpp(37): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : voir la déclaration de 'strcat'
-     1>c:\users\charla13\documents\github\partageable\composant1\composant1.cpp(38): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : voir la déclaration de 'strcat'
+         Toutes les sorties sont à jour.
        ResourceCompile:
-         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /IDebug\ /nologo /fo"Debug\Resource.res" Resource.rc 
        ManifestResourceCompile:
-         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Composant1.dll.embed.manifest.res" Debug\Composant1_manifest.rc 
        Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\charla13\Documents\github\partageable\Debug\Composant1.dll" /INCREMENTAL /NOLOGO /DEF:".\Composant1.def" /MANIFEST /ManifestFile:"Debug\Composant1.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\charla13\Documents\github\partageable\Debug\Composant1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\charla13\Documents\github\partageable\Debug\Composant1.lib" /MACHINE:X86 /DLL Debug\Resource.res
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\partageable\Debug\Composant1.dll" /INCREMENTAL /NOLOGO /DEF:".\Composant1.def" /MANIFEST /ManifestFile:"Debug\Composant1.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\partageable\Debug\Composant1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\partageable\Debug\Composant1.lib" /MACHINE:X86 /DLL Debug\Resource.res
          Debug\Composant1.dll.embed.manifest.res
          Debug\Composant1.obj
-         C:\Users\charla13\Documents\github\partageable\Debug\Composant3.lib
+         H:\partageable\Debug\Composant3.lib
+         LINK : H:\partageable\Debug\Composant1.dll introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
+            Création de la bibliothèque H:\partageable\Debug\Composant1.lib et de l'objet H:\partageable\Debug\Composant1.exp
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Composant1.dll.embed.manifest" /manifest Debug\Composant1.dll.intermediate.manifest "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
-         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Composant1.dll.embed.manifest.res" Debug\Composant1_manifest.rc 
        LinkEmbedManifest:
-         Toutes les sorties sont à jour.
-         Composant1.vcxproj -> C:\Users\charla13\Documents\github\partageable\Debug\Composant1.dll
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\partageable\Debug\Composant1.dll" /INCREMENTAL /NOLOGO /DEF:".\Composant1.def" /MANIFEST /ManifestFile:"Debug\Composant1.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\partageable\Debug\Composant1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\partageable\Debug\Composant1.lib" /MACHINE:X86 /DLL Debug\Resource.res
+         Debug\Composant1.dll.embed.manifest.res
+         Debug\Composant1.obj
+         H:\partageable\Debug\Composant3.lib
+         Composant1.vcxproj -> H:\partageable\Debug\Composant1.dll
        FinalizeBuildStatus:
          Suppression du fichier "Debug\Composant1.unsuccessfulbuild".
          Mise à jour de l'horodatage "Debug\Composant1.lastbuildstate".
-     1>Génération du projet "C:\Users\charla13\Documents\github\partageable\Composant1\Composant1.vcxproj" terminée (build cible(s)).
+     1>Génération du projet "H:\partageable\Composant1\Composant1.vcxproj" terminée (build cible(s)).
 
 La génération a réussi.
 
-Temps écoulé 00:00:01.72
+Temps écoulé 00:00:11.47
